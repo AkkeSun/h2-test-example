@@ -11,7 +11,6 @@ import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @ActiveProfiles("test")
-//@TestPropertySource("classpath:application-test.properties")
 public class RepositoryTest {
 
     @Autowired
